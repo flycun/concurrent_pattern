@@ -1,3 +1,5 @@
+package readwritelock.sample;
+
 public final class ReadWriteLock {
     private int readingReaders = 0; // (A)…实际正在读取中的线程个数
     private int waitingWriters = 0; // (B)…正在等待写入的线程个数

@@ -1,3 +1,4 @@
+package readwritelock.sample;
 public class Data {
     private final char[] buffer;
     private final ReadWriteLock lock = new ReadWriteLock();

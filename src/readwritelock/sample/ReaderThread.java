@@ -1,3 +1,4 @@
+package readwritelock.sample;
 public class ReaderThread extends Thread {
     private final Data data;
     public ReaderThread(Data data) {
